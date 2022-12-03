@@ -1,0 +1,61 @@
+.cityNameInput {
+  background-color: #cedcea;
+  border: 0px solid transparent;
+  border-radius: 0;
+  margin: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 20px;
+  position: relative;
+  /* width: 268px; */
+  height: 20px;
+  width: 250px;
+}
+
+.autocomplete {
+  position: absolute;
+  z-index: 99;
+  list-style: none;
+  width: 275px;
+  top: 60px;
+  margin-top: -10px;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: left;
+  transition: ease 1s;
+}
+
+.autocomplete__item {
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.autocomplete__item:hover,
+.autocomplete__item_active {
+  background-color: #1d5df7;
+  color: white;
+}
+
+/* .autocomplete-item {
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items:hover {
+  background-color: #612020;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+} */

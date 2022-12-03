@@ -1,0 +1,61 @@
+.city {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 290px;
+  max-width: 30%;
+  min-height: 250px;
+  margin: 25px 40px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: ease 0.2s;
+  background-color: #cedcea;
+}
+
+.city:hover {
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 38%);
+  transition: ease 0.2s;
+}
+
+.weatherIcon {
+  width: 30px;
+  margin: -10px 5px;
+  z-index: 10;
+  position: absolute;
+}
+
+.windIcon {
+  width: 15px;
+  margin-left: 5px;
+  z-index: 10;
+  position: relative;
+}
+
+.selectTimeSlot {
+  cursor: pointer;
+  background-color: #cedcea;
+  overflow-y: visible;
+}
+
+.btn {
+  margin: 0 5px;
+  padding: 5px 15px;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnDelete {
+  background-color: rgb(210, 49, 49);
+  margin: auto 1em;
+}
+.btnUpdate {
+  background-color: rgb(29 93 247);
+  margin: auto 1em;
+}
+
+p {
+  font-size: 15px;
+}
