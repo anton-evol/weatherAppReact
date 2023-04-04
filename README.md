@@ -1,4 +1,5 @@
 # React WeatherApp
 
-## SPA to retrieve weather info by city name with city autocomplete
-## [Deploy](https://anton-evol.github.io/weatherApp/) https://anton-evol.github.io/weatherApp/
+## SPA мониторинга погоды с поиском и автокомплитом
+
+## [Deploy](https://anton-evol.github.io/weatherAppReact/public/) https://anton-evol.github.io/weatherAppReact/public/
